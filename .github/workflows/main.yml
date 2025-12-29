@@ -27,3 +27,7 @@ jobs:
 
     - name: Build Angular app
       run: npm run build -- --configuration=production
+
+    - name: Lint
+      run: npm run lint
+
